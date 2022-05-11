@@ -7,7 +7,7 @@ focus: plan out how this project will make the memory cards be created:
     {
         + check if the current index in the number array does not exist already in newOrder
         {
-            
+            + add a random number to new newOrder with the greatest number being 12
         }
     }
 }
