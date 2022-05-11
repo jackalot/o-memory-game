@@ -10,4 +10,7 @@ focus: plan out how this project will make the memory cards be created:
             + add a random number to new newOrder with the greatest number being 12
         }
     }
+    + loop through newOrder {
+        
+    }
 }
