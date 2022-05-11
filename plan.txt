@@ -1,5 +1,5 @@
 focus: plan out how this project will make the memory cards be created:
 
 + App.js will call a new file called ScoreCounter: {
-
+    + it will then create an array of 12 numbers, 1-12
 }
