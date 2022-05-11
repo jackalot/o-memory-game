@@ -3,5 +3,8 @@ focus: plan out how this project will make the memory cards be created:
 + App.js will call a new file called ScoreCounter: {
     + it will then create a number array of 12 numbers, 1-12
     + make an empty array called newOrder;
-   
+    + loop through the number array
+    {
+        
+    }
 }
