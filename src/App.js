@@ -1,7 +1,7 @@
 import './App.css';
-import Card from './components/Cards';
+import MemoryCard from './components/MemoryCard';
 function App() {
-  <Card number="1"></Card>
+  <MemoryCard number="1"></MemoryCard>
 }
 
 export default App;
