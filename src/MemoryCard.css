@@ -1,5 +1,8 @@
 .card {
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 90px;
     height: 150px;
     padding-bottom: 30px;
