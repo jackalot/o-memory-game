@@ -1,7 +1,9 @@
 import './App.css';
 import MemoryCard from './components/MemoryCard';
 function App() {
-  <MemoryCard number="1"></MemoryCard>
+    return <div>
+        <MemoryCard number="1"></MemoryCard>
+    </div>
 }
 
 export default App;
