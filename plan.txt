@@ -5,6 +5,9 @@ focus: plan out how this project will make the memory cards be created:
     + make an empty array called newOrder;
     + loop through the number array
     {
-        
+        + check if the current index in the number array does not exist already in newOrder
+        {
+            
+        }
     }
 }
