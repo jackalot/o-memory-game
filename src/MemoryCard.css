@@ -9,6 +9,9 @@
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #df362d;
 }
 .card-content {
     display: flex;
