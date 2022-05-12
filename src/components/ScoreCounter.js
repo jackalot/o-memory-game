@@ -20,5 +20,6 @@ function ScoreCounter (props) {
         const uniqueOrder = [...new Set(newOrder)];
         return uniqueOrder;
     }
+    const cardOrder = createCardOrder();
 }
 export default ScoreCounter;
