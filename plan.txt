@@ -1,5 +1,5 @@
 focus: plan out how we will click on the memory cards and reset the cards when clicked on
 in MemoryCards.js {
 + add state to memory cards
-+ add an on click attribute to 
++ add an on click attribute to the div
 }
