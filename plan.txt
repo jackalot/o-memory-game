@@ -1,1 +1,1 @@
-focus: plan out how we will be click on the memory cards and reset the cards when clicked
+focus: plan out how we will click on the memory cards and reset the cards when clicked on
