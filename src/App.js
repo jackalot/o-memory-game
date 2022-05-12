@@ -1,8 +1,9 @@
 import './App.css';
 import MemoryCard from './components/MemoryCard';
+import ScoreCounter from './components/ScoreCounter';
 function App() {
     return <div>
-        <MemoryCard number="1"></MemoryCard>
+        <ScoreCounter></ScoreCounter>
     </div>
 }
 

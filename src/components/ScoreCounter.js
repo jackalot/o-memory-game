@@ -22,7 +22,19 @@ function ScoreCounter (props) {
     }
     const cardOrder = createCardOrder();
     return <div>
-        
+        <MemoryCard number={cardOrder[0]}></MemoryCard>
+        <MemoryCard number={cardOrder[1]}></MemoryCard>
+        <MemoryCard number={cardOrder[2]}></MemoryCard>
+        <MemoryCard number={cardOrder[3]}></MemoryCard>
+        <MemoryCard number={cardOrder[4]}></MemoryCard>
+        <MemoryCard number={cardOrder[5]}></MemoryCard>
+        <MemoryCard number={cardOrder[6]}></MemoryCard>
+        <MemoryCard number={cardOrder[7]}></MemoryCard>
+        <MemoryCard number={cardOrder[8]}></MemoryCard>
+        <MemoryCard number={cardOrder[9]}></MemoryCard>
+        <MemoryCard number={cardOrder[10]}></MemoryCard>
+        <MemoryCard number={cardOrder[11]}></MemoryCard>
+        <MemoryCard number={cardOrder[12]}></MemoryCard>
     </div>
 }
 export default ScoreCounter;
