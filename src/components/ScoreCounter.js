@@ -2,7 +2,9 @@ import React from "react";
 import MemoryCard from './MemoryCard';
 import '../ScoreCounter.css';
 function ScoreCounter (props) {
-    
+    function shuffleOrder(numberArray) {
+        numberArray.sort(() => Math.random() - 0.5);
+    }
     const cardOrder = createCardOrder();
     return <div>
         <div className="Card-row-1">
