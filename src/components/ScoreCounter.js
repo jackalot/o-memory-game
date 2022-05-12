@@ -8,7 +8,16 @@ function ScoreCounter (props) {
         for(let i = 0; i < numberArray.length; i += 1) {
             newOrder.push(Math.floor(Math.random() * 12));
         }
-       
+        /* To generate the rest of the numbers */
+        for(let i = 0; i < numberArray.length; i += 1) {
+            const index = newOrder.indexOf(numberArray[i]);
+            if(index === -1)
+            {
+                newOrder.push(numberArray[i]);
+            }
+        }
+        /* This is so we don't have any duplicates */
+        const uniqueOrder = [...new Set(newOrder)];
     }
 }
 export default ScoreCounter;
