@@ -15,15 +15,14 @@ function ScoreCounter (props) {
         <MemoryCard number={numberArray[3]}></MemoryCard>
         <MemoryCard number={numberArray[4]}></MemoryCard>
         <MemoryCard number={numberArray[5]}></MemoryCard>
-        <MemoryCard number={numberArray[6]}></MemoryCard>
         </div>
         <div className="Card-row-2">
+        <MemoryCard number={numberArray[6]}></MemoryCard>
         <MemoryCard number={numberArray[7]}></MemoryCard>
         <MemoryCard number={numberArray[8]}></MemoryCard>
         <MemoryCard number={numberArray[9]}></MemoryCard>
         <MemoryCard number={numberArray[10]}></MemoryCard>
         <MemoryCard number={numberArray[11]}></MemoryCard>
-        <MemoryCard number={numberArray[12]}></MemoryCard>
         </div>
     </div>
 }
