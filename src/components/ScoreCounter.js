@@ -1,5 +1,5 @@
 import React from "react";
-
+import MemoryCard from './MemoryCard';
 function ScoreCounter (props) {
     function createCardOrder() {
         const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
@@ -21,5 +21,8 @@ function ScoreCounter (props) {
         return uniqueOrder;
     }
     const cardOrder = createCardOrder();
+    return <div>
+        
+    </div>
 }
 export default ScoreCounter;
