@@ -10,8 +10,5 @@ focus: plan out how this project will make the memory cards be created:
             + add a random number to new newOrder with the greatest number being 12
         }
     }
-    + create an array named duplicates;
-    + loop through newOrder {
-
-    }
+    + use the Set method to have a collection of unique values. 
 }
