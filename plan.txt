@@ -11,4 +11,9 @@ focus: plan out how this project will make the memory cards be created:
         }
     }
     + use the Set method to have a collection of unique values. 
+    + make a for loop that loops through the number array again {
+        + on each iteration, check if the newOrder doesn't have this number{
+            if it doesn't, push it to the end
+        }
+    }
 }
