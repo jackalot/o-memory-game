@@ -7,7 +7,7 @@ function ScoreCounter (props) {
         const newOrder = [];
         /* To generate random numbers */
         for(let i = 0; i < numberArray.length; i += 1) {
-            newOrder.push(Math.floor(Math.random() * 12));
+            newOrder.push(Math.floor(Math.random() * 12 + 1));
         }
         /* To generate the rest of the numbers */
         for(let i = 0; i < numberArray.length; i += 1) {
