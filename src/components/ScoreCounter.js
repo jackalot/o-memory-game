@@ -18,6 +18,7 @@ function ScoreCounter (props) {
         }
         /* This is so we don't have any duplicates */
         const uniqueOrder = [...new Set(newOrder)];
+        return uniqueOrder;
     }
 }
 export default ScoreCounter;
