@@ -3,7 +3,7 @@ import '../MemoryCard.css';
 
 function MemoryCard (props) {
 
-    return <div onClick={props.handler} className="card">
+    return <div className="card">
         <div className="card-content">
             <p>{props.number}</p>
         </div>
