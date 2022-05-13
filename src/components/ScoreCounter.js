@@ -11,22 +11,23 @@ function ScoreCounter (props) {
     function handleNumber(number) {
         storedNumbers.push(number);
         console.log(storedNumbers);
+        shuffleOrder(numberArray);
     }
     return <div>
         <div className="Card-row-1">
-        <MemoryCard handler={handleNumber} number={numberArray[0]}></MemoryCard>
-        <MemoryCard handler={handleNumber} number={numberArray[1]}></MemoryCard>
-        <MemoryCard handler={handleNumber} number={numberArray[2]}></MemoryCard>
-        <MemoryCard handler={handleNumber} number={numberArray[3]}></MemoryCard>
-        <MemoryCard handler={handleNumber} number={numberArray[4]}></MemoryCard>
-        <MemoryCard handler={handleNumber} number={numberArray[5]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[0])} number={numberArray[0]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[1])} number={numberArray[1]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[2])} number={numberArray[2]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[3])} number={numberArray[3]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[4])} number={numberArray[4]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[5])} number={numberArray[5]}></MemoryCard>
         </div>
         <div className="Card-row-2">
-        <MemoryCard number={numberArray[6]}></MemoryCard>
-        <MemoryCard number={numberArray[7]}></MemoryCard>
-        <MemoryCard number={numberArray[8]}></MemoryCard>
-        <MemoryCard number={numberArray[9]}></MemoryCard>
-        <MemoryCard number={numberArray[10]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[6])} number={numberArray[6]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[7])} number={numberArray[7]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[8])} number={numberArray[8]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[9])} number={numberArray[9]}></MemoryCard>
+        <MemoryCard onClick={handleNumber(numberArray[10])} number={numberArray[10]}></MemoryCard>
         <MemoryCard number={numberArray[11]}></MemoryCard>
         </div>
     </div>
