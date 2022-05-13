@@ -7,12 +7,9 @@ function ScoreCounter (props) {
     }
     const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     shuffleOrder(numberArray);
-    function handleNewCards () {
-        shuffleOrder(numberArray);
-    }
     return <div>
         <div className="Card-row-1">
-        <MemoryCard handler={handleNewCards} number={numberArray[0]}></MemoryCard>
+        <MemoryCard number={numberArray[0]}></MemoryCard>
         <MemoryCard number={numberArray[1]}></MemoryCard>
         <MemoryCard number={numberArray[2]}></MemoryCard>
         <MemoryCard number={numberArray[3]}></MemoryCard>
