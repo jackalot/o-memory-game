@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import MemoryCard from './MemoryCard';
 import '../ScoreCounter.css';
 function ScoreCounter (props) {
+    const [storedNumbers, setStoredNumbers] = useState([]);
     function shuffleOrder(numberArray) {
         numberArray.sort(() => Math.random() - 0.5);
     }
