@@ -2,7 +2,6 @@ import React, { Component, useEffect, useState } from "react";
 import '../MemoryCard.css';
 
 function MemoryCard (props) {
-    const [clicked, setClicked] = useState(false);
     
     return <div onClick={props.handler} className="card">
         <div className="card-content">
