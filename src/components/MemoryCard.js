@@ -13,10 +13,7 @@ function MemoryCard (props) {
             setClicked(false);
         }
     }
-    useEffect(() => {
-        props.changeMemoryCards;
-    },)
-    return <div onClick={handleClick} className="card">
+    return <div onClick={props.handler} className="card">
         <div className="card-content">
             <p>{props.number}</p>
         </div>
