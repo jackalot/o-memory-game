@@ -13,7 +13,7 @@ function MemoryCard (props) {
             setClicked(false);
         }
     }
-    return <div onClick={props.handler} className="card">
+    return <div onClick={handleClick} className="card">
         <div className="card-content">
             <p>{props.number}</p>
         </div>
