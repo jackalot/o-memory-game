@@ -12,9 +12,15 @@ function App() {
             return array;
         }
         const orderedArray = createInitialArray();
-        function randomizeArray() {
-            
+        function randomizeArray(array) {
+            for(let i = array.length - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
         }
+        const randomArray = randomizeArray(orderedArray);
     }
     return <div>
         <div className="Card-row-1">
