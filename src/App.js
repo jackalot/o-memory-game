@@ -3,7 +3,15 @@ import MemoryCard from './components/MemoryCard';
 import ScoreCounter from './components/ScoreCounter';
 function App() {
     function createRandomOrder() {
-        
+        function createInitialArray () {
+            const array = [];
+            for(let i = 0; i < 12; i += 1)
+            {  
+               array.push(i);
+            }
+            return array;
+        }
+        const orderedArray = createInitialArray();
     }
     return <div>
         <div className="Card-row-1">
