@@ -2,6 +2,9 @@ import './App.css';
 import MemoryCard from './components/MemoryCard';
 import ScoreCounter from './components/ScoreCounter';
 function App() {
+    function createRandomOrder() {
+        
+    }
     return <div>
         <div className="Card-row-1">
         <MemoryCard number={1}></MemoryCard>
