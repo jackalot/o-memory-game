@@ -12,6 +12,7 @@ function ScoreCounter (props) {
         const addMoreItem = () => {
             setStoredNumbers(prevItems => [...prevItems, number])
         }
+        addMoreItem();
         shuffleOrder(numberArray);
     }
     return <div>
