@@ -9,8 +9,9 @@ function ScoreCounter (props) {
     const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     shuffleOrder(numberArray);
     function handleNumber(number) {
-        storedNumbers.push(number);
-        console.log(storedNumbers);
+        const addMoreItem = () => {
+            setStoredNumbers(prevItems => [...prevItems, number])
+        }
         shuffleOrder(numberArray);
     }
     return <div>
