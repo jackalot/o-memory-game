@@ -21,7 +21,10 @@ function App() {
             }
         }
         const randomArray = randomizeArray(orderedArray);
+        return randomArray;
     }
+    const newRandomOrder = createRandomOrder();
+    console.log(newRandomOrder)
     return <div>
         <div className="Card-row-1">
         <MemoryCard number={1}></MemoryCard>
