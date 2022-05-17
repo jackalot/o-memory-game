@@ -29,20 +29,20 @@ function App() {
     console.log(newRandomOrder)
     return <div>
         <div className="Card-row-1">
+        <MemoryCard number={newRandomOrder[0]}></MemoryCard>
         <MemoryCard number={newRandomOrder[1]}></MemoryCard>
-        <MemoryCard number={2}></MemoryCard>
-        <MemoryCard number={3}></MemoryCard>
-        <MemoryCard number={4}></MemoryCard>
-        <MemoryCard number={5}></MemoryCard>
-        <MemoryCard number={6}></MemoryCard>
+        <MemoryCard number={newRandomOrder[2]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[3]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[4]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[5]}></MemoryCard>
         </div>
         <div className="Card-row-2">
-        <MemoryCard number={7}></MemoryCard>
-        <MemoryCard number={8}></MemoryCard>
-        <MemoryCard number={9}></MemoryCard>
-        <MemoryCard number={10}></MemoryCard>
-        <MemoryCard number={11}></MemoryCard>
-        <MemoryCard number={12}></MemoryCard>
+        <MemoryCard number={newRandomOrder[6]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[7]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[8]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[9]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[10]}></MemoryCard>
+        <MemoryCard number={newRandomOrder[11]}></MemoryCard>
         </div>
     </div>
 }
