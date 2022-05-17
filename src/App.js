@@ -22,14 +22,14 @@ function App() {
             }
         }
         /* Randomize those numbers so it doesn't look like: [1, 2, 3, 4, 5]; */
-        const randomArray = randomizeArray(orderedArray);
-        return randomArray;
+        randomizeArray(orderedArray);
+        return orderedArray;
     }
     const newRandomOrder = createRandomOrder();
     console.log(newRandomOrder)
     return <div>
         <div className="Card-row-1">
-        <MemoryCard number={1}></MemoryCard>
+        <MemoryCard number={newRandomOrder[1]}></MemoryCard>
         <MemoryCard number={2}></MemoryCard>
         <MemoryCard number={3}></MemoryCard>
         <MemoryCard number={4}></MemoryCard>
