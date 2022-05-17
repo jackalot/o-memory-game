@@ -11,6 +11,7 @@ function App() {
             }
             return array;
         }
+        /* Create an initial array of numbers 1 - 12 */
         const orderedArray = createInitialArray();
         function randomizeArray(array) {
             for(let i = array.length - 1; i > 0; i--) {
@@ -20,6 +21,7 @@ function App() {
                 array[j] = temp;
             }
         }
+        /* Randomize those numbers so it doesn't look like: [1, 2, 3, 4, 5]; */
         const randomArray = randomizeArray(orderedArray);
         return randomArray;
     }
