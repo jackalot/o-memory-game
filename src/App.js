@@ -37,7 +37,7 @@ function App() {
     }
     return <div>
         <div className="Card-row-1">
-        <MemoryCard number={newRandomOrder[0]}></MemoryCard>
+        <MemoryCard handler={storeNumber} number={newRandomOrder[0]}></MemoryCard>
         <MemoryCard number={newRandomOrder[1]}></MemoryCard>
         <MemoryCard number={newRandomOrder[2]}></MemoryCard>
         <MemoryCard number={newRandomOrder[3]}></MemoryCard>
