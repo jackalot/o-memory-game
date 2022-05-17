@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import MemoryCard from './components/MemoryCard';
 import ScoreCounter from './components/ScoreCounter';
@@ -25,8 +26,12 @@ function App() {
         randomizeArray(orderedArray);
         return orderedArray;
     }
-    const newRandomOrder = createRandomOrder();
-    console.log(newRandomOrder)
+    let newRandomOrder =  createRandomOrder();
+    useEffect(() => {
+        newRandomOrder =  createRandomOrder();
+    })
+    
+    
     return <div>
         <div className="Card-row-1">
         <MemoryCard number={newRandomOrder[0]}></MemoryCard>
