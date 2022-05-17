@@ -1,8 +1,9 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import MemoryCard from './components/MemoryCard';
 import ScoreCounter from './components/ScoreCounter';
 function App() {
+    const [storedNumbers, setStoredNumbers] = useState([])
     function createRandomOrder() {
         function createInitialArray () {
             const array = [];
@@ -31,7 +32,9 @@ function App() {
         newRandomOrder =  createRandomOrder();
     })
     
-    
+    function storeNumber (newNumber) {
+        setStoredNumbers([...storedNumbers, { number: newNumber}])
+    }
     return <div>
         <div className="Card-row-1">
         <MemoryCard number={newRandomOrder[0]}></MemoryCard>
