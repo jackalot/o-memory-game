@@ -32,8 +32,9 @@ function App() {
         /** Change the order after any change to this component */
         newRandomOrder =  createRandomOrder();
     })
-    
+    /** Store the number clicked in state */
     function storeNumber (newNumber) {
+        /** Call setStoredNumbers which will store the newNumber */
         setStoredNumbers([...storedNumbers, { number: newNumber}])
     }
     return <div>
