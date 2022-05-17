@@ -29,6 +29,7 @@ function App() {
     }
     let newRandomOrder =  createRandomOrder();
     useEffect(() => {
+        /** Change the order after any change to this component */
         newRandomOrder =  createRandomOrder();
     })
     
