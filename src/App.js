@@ -50,20 +50,20 @@ function App() {
     }
     return <div>
         <div className="Card-row-1">
-        <MemoryCard handler={storeNumber} number={newRandomOrder[0]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[1]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[2]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[3]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[4]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[5]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[0]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[1]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[2]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[3]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[4]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[5]}></MemoryCard>
         </div>
         <div className="Card-row-2">
-        <MemoryCard handler={storeNumber} number={newRandomOrder[6]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[7]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[8]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[9]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[10]}></MemoryCard>
-        <MemoryCard handler={storeNumber} number={newRandomOrder[11]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[6]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[7]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[8]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[9]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[10]}></MemoryCard>
+        <MemoryCard handler={checkNumber} number={newRandomOrder[11]}></MemoryCard>
         </div>
     </div>
 }
