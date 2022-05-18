@@ -52,13 +52,13 @@ function App() {
     }
     function checkNumber(newNumber) {
         const index = findStoredNumber(storedNumbers, newNumber);
+        /** The User didn't select a card they already picked before, store this number then. */
         if(index === -1)
         {
             storeNumber(newNumber);
         }
-        else
+        else /** The user selected a card they already selected. */
         {
-            console.log("score a point");
         }
     }
     return <div>
