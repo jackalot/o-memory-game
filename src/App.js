@@ -4,8 +4,7 @@ import MemoryCard from './components/MemoryCard';
 import ScoreCounter from './components/ScoreCounter';
 function App() {
     const [storedNumbers, setStoredNumbers] = useState([{number: -1}])
-    /** Like indexOf() for arrays, but allows you to find objects in them ( which our storedNumbers array
-     * has.) */
+    /** Like indexOf() for arrays, but allows us to find explicitly our stored number since its an object*/
     function findStoredNumber(objectArray, valueToFind)
     {
         let index = -1;
