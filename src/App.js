@@ -8,7 +8,15 @@ function App() {
      * has.) */
     function findStoredNumber(objectArray, valueToFind)
     {
-       
+        let index = -1;
+        for(let i = 0; i < objectArray.length; i++)
+        {
+            if(objectArray[i].number === valueToFind)
+            {
+                index = i;
+            }
+        }
+        return index;
     }
     function createRandomOrder() {
         function createInitialArray () {
