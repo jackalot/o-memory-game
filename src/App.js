@@ -50,6 +50,7 @@ function App() {
     function storeNumber (newNumber) {
         /** Call setStoredNumbers which will store the newNumber */
         setStoredNumbers([...storedNumbers, { number: newNumber}])
+        setCurrentScore(currentScore + 1);
     }
     function checkNumber(newNumber) {
         const index = findStoredNumber(storedNumbers, newNumber);
