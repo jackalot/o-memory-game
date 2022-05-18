@@ -61,6 +61,7 @@ function App() {
         }
         else /** The user selected a card they already selected. */
         {
+            setCurrentScore(0);
         }
     }
     return <div>
