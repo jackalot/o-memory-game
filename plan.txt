@@ -2,4 +2,12 @@ focus: plan out the scoring system now that we can store in state each number:
 /** This function will check our number that clicked on a card for: */ 
 + add a new function called checkNumber (number) {
  + a reference to indexOf() our number and being called off the storedNumbers array;
+ + if( this number is NOT in the storedNumbers array)
+ {
+     + call storeNumber();
+ }
+ + if(this number is in the storedNumbers array)
+ {
+     do nothing for now.
+ }
 }
