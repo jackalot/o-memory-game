@@ -6,9 +6,9 @@ function App() {
     const [storedNumbers, setStoredNumbers] = useState([{number: -1}])
     /** Like indexOf() for arrays, but allows you to find objects in them ( which our storedNumbers array
      * has.) */
-    function objectBasedIndexOf(object, valueToFind)
+    function findStoredNumber(objectArray, valueToFind)
     {
-
+       
     }
     function createRandomOrder() {
         function createInitialArray () {
