@@ -37,6 +37,17 @@ function App() {
         /** Call setStoredNumbers which will store the newNumber */
         setStoredNumbers([...storedNumbers, { number: newNumber}])
     }
+    function checkNumber(newNumber) {
+        const index = storedNumbers.indexOf({number: newNumber});
+        if(index === -1)
+        {
+            storeNumber(newNumber);
+        }
+        else
+        {
+            console.log("score a point");
+        }
+    }
     return <div>
         <div className="Card-row-1">
         <MemoryCard handler={storeNumber} number={newRandomOrder[0]}></MemoryCard>
