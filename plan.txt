@@ -1,11 +1,1 @@
-focus: plan out how we will click on the memory cards and reset the cards when clicked on
-* in MemoryCards.js {
-* a new function inside MemoryCards () {
-    + this will change the state of 'ive-been-clicked' or whatever it has been called.
-}
-+ add state to memory cards
-+ add use effect to MemoryCards {
-    + call props.changeMemoryCards();
-}
-+ add an on click attribute to the div
-}
+focus: plan out the scoring system now that we can store in state each number:
