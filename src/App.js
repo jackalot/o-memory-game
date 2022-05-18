@@ -51,7 +51,7 @@ function App() {
         setStoredNumbers([...storedNumbers, { number: newNumber}])
     }
     function checkNumber(newNumber) {
-        const index = storedNumbers.indexOf({number: newNumber});
+        const index = findStoredNumber(storedNumbers, newNumber);
         if(index === -1)
         {
             storeNumber(newNumber);
