@@ -4,6 +4,12 @@ import MemoryCard from './components/MemoryCard';
 import ScoreCounter from './components/ScoreCounter';
 function App() {
     const [storedNumbers, setStoredNumbers] = useState([{number: -1}])
+    /** Like indexOf() for arrays, but allows you to find objects in them ( which our storedNumbers array
+     * has.) */
+    function objectBasedIndexOf(object, valueToFind)
+    {
+
+    }
     function createRandomOrder() {
         function createInitialArray () {
             const array = [];
