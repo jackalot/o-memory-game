@@ -1,3 +1,11 @@
 .scoreBoard {
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+}
+.currentScore {
     background-color: #FF4500;
+}
+.highScore {
+    background-color: #df362d;
 }
