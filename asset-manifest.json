@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/o-memory-game/static/css/main.3c54f8a0.css",
+    "main.js": "/o-memory-game/static/js/main.f7da1c69.js",
+    "index.html": "/o-memory-game/index.html",
+    "main.3c54f8a0.css.map": "/o-memory-game/static/css/main.3c54f8a0.css.map",
+    "main.f7da1c69.js.map": "/o-memory-game/static/js/main.f7da1c69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c54f8a0.css",
+    "static/js/main.f7da1c69.js"
+  ]
+}
