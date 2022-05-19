@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import MemoryCard from './components/MemoryCard';
-import ScoreCounter from './components/ScoreCounter';
 function App() {
     const [storedNumbers, setStoredNumbers] = useState([{number: -1}])
     const [currentScore, setCurrentScore] = useState(0);
