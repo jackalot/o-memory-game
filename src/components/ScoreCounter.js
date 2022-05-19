@@ -13,7 +13,7 @@ function ScoreCounter (props) {
         <p>Current Score: {props.currentScore}</p>
        </div>
        <div className="highScore">
-        <p>{highScore}</p>
+        <p>High Score: {highScore}</p>
        </div>
     </div>
 }
