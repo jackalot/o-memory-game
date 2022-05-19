@@ -21,7 +21,7 @@ function App() {
     function createRandomOrder() {
         function createInitialArray () {
             const array = [];
-            for(let i = 0; i < 12; i += 1)
+            for(let i = 0; i < 100; i += 1)
             {  
                array.push(i);
             }
