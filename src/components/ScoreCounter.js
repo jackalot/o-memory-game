@@ -7,7 +7,7 @@ function ScoreCounter (props) {
         {
             setHighScore(props.currentScore);
         }
-    })
+    }, [props.currentScore, highScore])
     return <div className="scoreBoard">
        <div className="currentScore">
         <p>Current Score: {props.currentScore}</p>
