@@ -66,6 +66,7 @@ function App() {
         }
     }
     return <div>
+        <ScoreCounter currentScore={currentScore}></ScoreCounter>
         <div className="Card-row-1">
         <MemoryCard handler={checkNumber} number={newRandomOrder[0]}></MemoryCard>
         <MemoryCard handler={checkNumber} number={newRandomOrder[1]}></MemoryCard>
