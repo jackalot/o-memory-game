@@ -1,1 +1,9 @@
-This project will be about a memory game where you will have to click cards and memorize which cards you clicked before.
+THis project is about a memory game. 
+
+HOW TO PLAY:
+
+Try to click as many numbered cards as you can without clicking the same card twice.
+
+This project uses:
+
+React, Webpack
